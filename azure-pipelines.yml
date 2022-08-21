@@ -10,7 +10,7 @@ stages:
   jobs: 
   - job: 'Build'
     displayName: 'Build job'
-    pool: 'AWSAgent'
+    pool: 'MyTestAgent'
 
     variables:
       wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
